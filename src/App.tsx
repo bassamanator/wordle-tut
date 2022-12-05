@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { WordRow } from './WordRow';
 
 export default function App() {
