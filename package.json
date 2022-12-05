@@ -9,7 +9,8 @@
 		"preview": "vite preview",
 		"coverage": "vitest run --coverage",
 		"test": "vitest",
-		"test:ui": "vitest --ui"
+		"test:ui": "vitest --ui",
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"react": "^18.2.0",
