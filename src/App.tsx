@@ -1,18 +1,16 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import './App.css';
+import { WordRow } from './WordRow';
 
-function App() {
-	const [count, setCount] = useState(4);
-
+export default function App() {
 	return (
 		<div className='mx-auto w-96'>
-			<h1 className={' text-6xl'}>Reacdle</h1>
-			<h2>count IS: {count}</h2>
+			<header className='border-b border-gray-500 pb-2 my-2'>
+				<h1 className='text-4xl text-center'>Reacdle</h1>
+			</header>
 
-			<button onClick={() => setCount((p) => p + 1)}>increment</button>
+			<main>
+				<WordRow />
+			</main>
 		</div>
 	);
 }
-
-export default App;
